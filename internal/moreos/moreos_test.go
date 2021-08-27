@@ -65,6 +65,8 @@ func TestIsExecutable_Not(t *testing.T) {
 	require.False(t, isExecutable(f))
 }
 
+// TODO: Add test for checking a .dll file.
+
 func TestReplacePathSeparator(t *testing.T) {
 	path := "/foo/bar"
 

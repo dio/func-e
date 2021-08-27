@@ -4,6 +4,7 @@ module github.com/tetratelabs/func-e
 go 1.17
 
 require (
+	github.com/Velocidex/go-pe v0.1.0
 	github.com/shirou/gopsutil/v3 v3.21.7
 	github.com/stretchr/testify v1.7.0
 	github.com/ulikunitz/xz v0.5.10
